@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+}
+html{
+    overflow-x: hidden;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Recipekorea, sans-serif;
+    background-color: #f9f6ef;
+}
+h1 {
+    font-size: xxx-large;
+    color: dimgrey;
+}
+p {
+    font-size: x-large;
+}
+
+.header {
+    float:left;
+    line-height:100px;
+    color:#000;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+header .nav {
+    display: inline-block;
+    float: right;
+    width: 100%;
+    height:90px;
+    position:fixed;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.nav_el {
+    margin: 0;
+}
+
+.nav .nav_el a{
+    float:right;
+    text-align:center;
+    margin-left:30px;
+    color: black;
+}
+
+.nav .nav_el a:hover{
+    border-bottom:2px
+    solid #91a7ff;
+    color:#91a7ff;
+}
+
+#intro {
+    margin-left: 0px; margin-right: 0px;
+    padding-left: 150px; padding-right: 150px;
+    padding-top: 100px;
+    width:100%;
+    height : 1700px;
+    background:#FFF;
+    border-radius: 10px;
+}
+#background {
+    margin-left: 0px; margin-right: 0px;
+    padding-left: 150px; padding-right: 150px;
+    padding-top: 70px;
+    width:100%; height:1000px;
+    background:#dbe4ff;
+    text-align:center;
+    border-radius: 10px;
+}
+
+#about {
+    margin-left: 0px; margin-right: 0px;
+    padding-left: 150px; padding-right: 150px;
+    padding-top: 70px;
+    width:100%; height:1000px;
+    background:#fff3bf;
+    border-radius: 10px;
+}
+#fine {
+    margin-left: 0px; margin-right: 0px;
+    padding-left: 150px; padding-right: 150px;
+    padding-top: 70px;
+    width:100%; height:3100px;
+    background:#dbe4ff;
+    /*text-align:center;*/
+    border-radius: 10px;
+}
+#special {
+    margin-left: 0px; margin-right: 0px;
+    padding-left: 150px; padding-right: 150px;
+    padding-top: 100px;
+    width:100%;
+    height : 1200px;
+    background:#FFF;
+    border-radius: 10px;
+}
+#how-to {
+    margin-left: 0px; margin-right: 0px;
+    padding-left: 150px; padding-right: 150px;
+    padding-top: 70px;
+    width:100%; height:1100px;
+    background:#fff3bf;
+    text-align:center;
+    border-radius: 10px;
+}
+#plan {
+    margin-left: 0px; margin-right: 0px;
+    padding-left: 150px; padding-right: 150px;
+    padding-top: 70px;
+    width:100%; height:1000px;
+    background:#dbe4ff;
+    border-radius: 10px;
+
+}
+#info {
+    margin-left: 0px; margin-right: 0px;
+    padding-left: 150px; padding-right: 150px;
+    padding-top: 70px;
+    width:100%; height:700px; background:#FFFFFF;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-left: 0px; margin-right: 0px;
+    padding-left: 150px; padding-right: 150px;
+    padding-top: 10px; padding-bottom:30px;
+    width:100%; height:100px;
+    clear: both;
+}
